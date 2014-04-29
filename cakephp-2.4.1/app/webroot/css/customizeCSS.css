@@ -1,0 +1,45 @@
+@charset "utf-8";
+/**
+ * CSS file for all customize layout
+ *
+ * @nosensezzz
+ */
+ 
+ 
+ 
+.wrapper{
+	//width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 10px 40px 20px 40px;
+}
+
+.inner_header{
+	padding: 10px 10px 10px 10px;
+}
+
+.inner_header_font{
+	margin-left:30px;
+}
+
+.category_index{
+	margin-top: 20px;
+	height:60px;
+}
+.form_div{
+	background:#EEEEEE;
+	padding:40px;
+	width:85%;
+}
+
+.input1{
+	width:80%;
+}
+
+.form_button_at_foot{
+	padding:20px;
+}
+
+#top_virtual_button{	margin-top:50px;}
+#top_virtual_button li:first-child{margin-left:303px;}
+#top_virtual_button li{height:72px; width:72px; text-decoration:none;float:left; cursor:pointer;}
