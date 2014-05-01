@@ -24,7 +24,7 @@
 
 .category_index{
 	margin-top: 20px;
-	height:60px;
+	height:40px;
 }
 .form_div{
 	background:#EEEEEE;
@@ -38,8 +38,105 @@
 
 .form_button_at_foot{
 	padding:20px;
+	text-align:center;
+	
 }
 
 #top_virtual_button{	margin-top:50px;}
 #top_virtual_button li:first-child{margin-left:303px;}
 #top_virtual_button li{height:72px; width:72px; text-decoration:none;float:left; cursor:pointer;}
+
+
+// 以下是商品登录 -》 商品一览 的css 部分
+div#head_search_pagination_div{
+	height:35px;
+	padding:5px;
+}
+
+div#foot_search_pagination_div{
+	margin-top:20px;
+	height:35px;
+	padding:5px;
+}
+
+#item_search_btn{
+    background: url('../sucai/zoom.png') no-repeat left;/* 16px x 16px */
+	color:white;
+	background-size:20px 20px;
+    background-color: rgb(167, 167, 167); /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 5px 5px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 30px;           /* make this the size of your image */
+	width:95px;
+    padding-left: 18px;     /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+	border-radius:5px;
+	float:left;
+}
+
+.pagination_div{
+	vertical-align:middle;
+	float:right;
+	//width:200px;
+	margin-top:5px;
+	text-align:center;
+}
+.pagination_first_page_div{
+	border:1px solid;
+	float:left;
+	width:45px;
+	margin-right:20px;
+	cursor:pointer;
+}
+
+.pagination_last_page_div{
+	border:1px solid;
+	float:right;
+	width:45px;
+	//margin-right:10px;
+	margin-left:10px;
+	cursor:pointer;
+}
+.pagination_page_div{	
+	border:1px solid;
+	float:left;
+	width:30px;
+	margin-left:3px;margin-right:3px;
+	cursor:pointer;
+}
+.items_table_div{
+	//height:20px;
+	background-color:#EEEEEE;
+	border-radius:2px;
+	padding: 10px 40px 10px 40px;
+}
+.items_table{
+	border-color:red;
+	background:transparent;
+	border-right:0;
+	clear: both;
+	color: #333;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.items_table > tbody > tr>th{
+	text-align:center;vertical-align:middle;height:50px;
+}
+.items_table > tbody > tr{ height:40px; border:none; background:white;}
+.items_table > tbody > tr > td{ vertical-align:middle; text-align:center;border:0px; border-spacing:0px; }
+#edit_delete_pictureBtnTabel > tbody > tr >td{ cursor:pointer; }
+
+// 以下是商品登录 -》 手动登录 的 CSS 部分
+
+.manulaInputForm_div{  }
+.manualInputForm{
+
+}
+.manualInputForm > table { width:100%; background:rgb(248, 248, 248); margin-top:10px;}
+.manualInputForm > table > tbody > tr { height:70px; }
+.manualInputForm > table > tbody > tr  > td{  vertical-align:middle; text-align:center; }
+.manualInputForm > table > tbody > tr  > td:first-child{  width:160px; padding-left:35px;}
+.manualInputForm > table > tbody > tr  > td >input{ height:30px; font-size: 20px; padding-left:10px;}

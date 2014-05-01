@@ -171,15 +171,11 @@ div.actions h3 {
 
 /** Tables **/
 table {
-	border-right:0;
-	clear: both;
-	color: #333;
-	margin-bottom: 10px;
-	width: 100%;
+	
 }
 th {
 	border:0;
-	border-bottom:2px solid #555;
+	//border-bottom:2px solid #555;
 	text-align: left;
 	padding:4px;
 }
@@ -195,10 +191,7 @@ th a.desc:after {
 	content: ' ⇡';
 }
 table tr td {
-	padding: 15px;
-	text-align: left;
-	vertical-align: top;
-	border-bottom:1px solid #ddd;
+
 }
 table tr {
 	background: #f9f9f9;

@@ -2,6 +2,8 @@
 
 
 
+
+
 <div class="wrapper">
 	<div class="inner_header">
 	<img src="/<?=Configure::read('site_name')?>/sucai/shangpindenglu.png" width=70px height=70px >
@@ -16,21 +18,28 @@
 	
 	
 	</div>
-	<div class="form_div">
-		<form>
-		
-		<input type="file">
-		
-		<button style="width:80px;background:rgb(0, 102, 255);color:white;">确定</button>
-		
-	
+	<div class="">
+		<form class="manualInputForm">
+		<table>
+			<tr>
+				<td><label for="">名字</label></td>
+				<td><input class="input1" name="" /></td>
+			</tr>
+			
+			<tr>
+				<td><label for="">管理ID</label></td>
+				<td><input class="input1" name="" /></td>
+			</tr>
+		</table>
+		<div style="padding:10px;margin-top:20px;verticle-align:middle; text-align:center;">
+		<button>取消</button>
+		<button>确定</button>
+		</div>
+		</form>
 	</div>
 	
 
 		
-		<div style="padding:40px;"><a href="/<?=Configure::read('site_name')?>/ItemRegistration/manualInput" style="margin-top:50px; width:80px;font-weight:bold;cursor:pointer;">商品入力</a></div>
-	
-		</form>
 
 </div>
 

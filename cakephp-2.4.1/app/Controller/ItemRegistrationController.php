@@ -16,12 +16,20 @@ class ItemRegistrationController extends AppController {
 	public function index(){
 	
 	
+	}
 	
+	public function manualInput(){
 	
+	}
+	
+	public function viewItems(){
 	
 	
 	}
 	
+	public function editItem( $itemId = null){
+	
+	}
 	
 	
 	
